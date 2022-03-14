@@ -70,13 +70,13 @@ const Card = styled.div`
   img {
     border-radius: 2rem;
     position: absolute;
-    left: 0,
-    width: 100%,
-    height: 100%,
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 
-  p{
+  p {
     position: absolute;
     z-index: 10;
     left: 50%;
