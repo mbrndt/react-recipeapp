@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import Category from "./components/Category";
+import { Search } from "./components/Search";
 import Pages from "./pages/Pages";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Category />
+        <Search />
         <Pages />
       </BrowserRouter>
     </div>
